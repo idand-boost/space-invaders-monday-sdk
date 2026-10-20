@@ -70,9 +70,9 @@ body {
 
 .screen {
   /* Keep the 224x256 aspect ratio and fit inside the viewport. */
-  /* At least 80% of the window's width, or bigger if it still fits the window. Keeps the
+  /* At least 40% of the window's width, or bigger if it still fits the window. Keeps the
      224x256 aspect ratio, so on a wide window it is taller than the window and the page scrolls. */
-  width: max(80vw, min(calc((100vh - 110px) * 224 / 256), calc(100vw - 32px)));
+  width: max(40vw, min(calc((100vh - 110px) * 224 / 256), calc(100vw - 32px)));
   aspect-ratio: 224 / 256;
   display: block;
   border: 2px solid #1a1a1a;
